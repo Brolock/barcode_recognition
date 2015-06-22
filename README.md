@@ -20,12 +20,15 @@ make
 # Basic use
 
 Recognition on an image:
-./tirf [--debug] <path/to/image>
+
+./tirf [--debug] path/to/image
 
 Recognition on a video:
 
-# Will capture the video stream from the webcam
+Will capture the video stream from the webcam:
+
 ./tirf --video
 
-# Will play the video on path
-./tirf --video <path/to/video>
+Will play the video on path:
+
+./tirf --video path/to/video
